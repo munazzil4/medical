@@ -1,8 +1,6 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 ## About laravel-medical:
 
-laravel-medical is a full-stack web application that allows the user to manage a medical clinic.
+Medical is a full-stack web application that allows the user to manage a medical clinic.
 </br></br>
 
 -   There are three roles in this app, each with a particular level of access:
@@ -26,6 +24,10 @@ laravel-medical is a full-stack web application that allows the user to manage a
 
 ![use case Diagram](./public/useCaseDiagram.png)
 
+## Mysql Relatioship Diagram:
+
+[vue statique Class diagram.png](https://github.com/munazzil4/medical/blob/9b5c41eb43bb83e95173a496dffe7e79a6975afc/vue%20statique%20Class%20diagram.png)
+
 ## Tech used:
 
 -   Laravel V9 : web application framework
@@ -40,9 +42,7 @@ laravel-medical is a full-stack web application that allows the user to manage a
     git clone https://github.com/munazzil4/laravel_medical.git
     cd ./laravel_medical
 
-    sudo chmod 777 * -R
-
-    composer install
+    composer install --ignore-platform-reqs
 
     npm install
     ```
@@ -75,11 +75,11 @@ laravel-medical is a full-stack web application that allows the user to manage a
 
 </br></br> 3. Login to the app:
 
--   if you checked `DatabaseSeeder.php` as I told you (look above) you will notice that 4 users has been created :
+-   if you checked `DatabaseSeeder.php` ,as you will notice that 4 users has been created :
 
 | role      | email                       | password |
 | --------- | --------------------------- | -------- |
-| Admin     | admin@clinictlemcen.com     | 123456   |
-| Doctor    | doctor@clinictlemcen.com    | 123456   |
-| Doctor    | doctor2@clinictlemcen.com   | 123456   |
-| Secretary | secretary@clinictlemcen.com | 123456   |
+| Admin     | admin@gmail.com             | 123456   |
+| Doctor    | ahmedmunazzil1@gmail.com    | 123456   |
+| Doctor    | doctor2@gmail.com           | 123456   |
+| Secretary | secretary@gmail.com         | 123456   |
