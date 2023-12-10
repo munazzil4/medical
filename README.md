@@ -26,7 +26,7 @@ Medical is a full-stack web application that allows the user to manage a medical
 
 ## Mysql Relatioship Diagram:
 
-[vue statique Class diagram.png](https://github.com/munazzil4/medical/blob/9b5c41eb43bb83e95173a496dffe7e79a6975afc/vue%20statique%20Class%20diagram.png)
+![mysql relationship Digram](./public/mysql_relationship.png)
 
 ## Tech used:
 
