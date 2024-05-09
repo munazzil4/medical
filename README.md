@@ -1,4 +1,4 @@
-## About laravel-medical:
+## About laravel medical app:
 
 Medical is a full-stack web application that allows the user to manage a medical clinic.
 </br></br>
@@ -59,9 +59,9 @@ Medical is a full-stack web application that allows the user to manage a medical
         DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
         DB_PORT=3306
-        DB_DATABASE=name
+        DB_DATABASE=db_name
         DB_USERNAME=root
-        DB_PASSWORD=YOUR_PHP_My_ADMIN_PASSWORD
+        DB_PASSWORD=db_password
         ```
     - Migrate the database
         ```bash
