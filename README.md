@@ -31,7 +31,7 @@ Medical is a full-stack web application that allows the user to manage a medical
 ## Tech used:
 
 -   Laravel V9 : web application framework
--   AdminLTE Bootstrap Admin Dashboard Template [link](https://adminlte.io/themes/v3/)
+-   AdminLTE Bootstrap Admin Dashboard Template
     </br></br>
 
 ## Installation
